@@ -84,7 +84,9 @@ export default class ImageTool {
   static get sanitize() {
     return {
       'figure': true,
-      'img': true
+      'img': true,
+      'width': true,
+      'height': true
     };
   }
 
